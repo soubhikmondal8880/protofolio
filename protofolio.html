@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Soubhik Protofolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/376ff0bb49.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+               <img src="logo2.jpg" class="logo">
+               <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+               </ul>
+               <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FullStack Developer</p>
+                <h1> Hi, I am <br><span>Soubhik</span>..</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img12.jpg" width="264px" height="265pxpx" >
+                </div>
+                <div class="about-col-2">
+                    <h1>About Me</h1>
+                    <p>Hello I am Soubhik Mondal. I am a full-stack developer. I developed the website . Those websites are very reliable and user friendly. Users easily use these websites . </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li>UI/UX<span><br>Designing web/App Interfaces</span></li><br>
+                        <li>Web Development<span><br>Web App Development</span></li><br>
+                        <li>App Development<span><br>Building Android /ios apps</span></li><br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li>C <span><br> using C programming language</span></li><br>
+                        <li>C ++<span><br>using C++ programming language</span></li><br>
+                        <li>Java <span><br>using java programming language</span></li><br>
+                        <li>Python<span><br>using Python programming language</span></li><br>
+                        <li>DBMS<span><br>using data base management System</span></li><br>
+                        <li>Html<span><br>Using html</span></li><br>
+                        <li>Css<span><br>using css</span></li><br>
+                        <li>BootStrap<span><br>using BootStrap</span></li><br>
+                        <li>JavaScript<span><br>Using JavaScript</span></li><br>
+                        <li>Data Structures and Algorithms<span><br>Know  about the Data Structures and Algorithms</span></li><br>
+                        <li>Computer Network<span><br>basic knowledge on Computer Networks</span></li><br>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li>2019-2022<span><br>Bachelor of Computer applications(BCA)<br> from Techno India-Kolkata</span></li><br>
+                        <li>2022-2024<span><br>Master's of Computer Applkications (MCA)<br> from CMRIT Bangalore</span></li><br>
+                    
+                    </ul>
+            </div>
+        </div>
+        
+        <div id="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Design</h2>
+                        <p>Our team of proficient website developers & experienced digital marketing specialists use the latest technologies and proven strategies to create user-engaging business websites & dynamic web applications and promote them to enhance customer reach. Hire website developers from us to establish a strong online presence that will pave your path toward success.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-crop"></i>
+                        <h2>UI/Ux Design</h2>
+                        <p>We offer innovative UI & UX design services at Intellectsoft, aimed at delivering an excellent finished product in a timely manner. Through an innovative design process, our in-house creative unit functions as a dedicated design studio within a comprehensive software company. We strive to deliver profoundly engaging mobile and web applications, including prototype designing, testing, and customer experience research.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+                    <div>
+                        <i class="fa-brands fa-app-store-ios"></i>
+                        <h2>App Design</h2>
+                        <p>Our mobile app designers believe in design-driven development which helps us deliver mobile apps that loved by the users. Starting from conception to completion, refining your design strategy, outlining objectives, and sketching design prototypes, we work with our clients closely to deliver the engaging and unique user experience. With the help of passionate designers, we have managed to design mobile apps that tempt users to keep using your mobile app. Moreover, we keep your business specifications in mind to offer designs for your mobile app at best cost ever.</p>
+                        <a href="#">Learn more</a>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="protfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="project1.png" >
+                    <div class="layer">
+                        <h3>Fitness Gym Factory</h3>
+                        <p>Users easily use this sites and track their diet records for fitness
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="project2.jpg" >
+                    <div class="layer">
+                        <h3>Music player</h3>
+                        <p>Free to listen your Favourate musics in this websites
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="project2.png"  >
+                    <div class="layer">
+                        <h3>Online Food Ordering System</h3>
+                        <p>Users easily use this website and orders their Foods
+                        </p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn">see more</a>
+        </div>
+    </div>
+
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    
+                    <p>soubhikmondal8880@gmail.com<i class="fa-solid fa-paper-plane"></i></p>
+                    <div class="social-icons">
+                        <a href="www.linkedin.com/in/soubhik-mondal-8880"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/soubhikmondal8880"><i class="fa-brands fa-github"></i></a>
+                        <a href="https://instagram.com/soubhik.mondal?igshid=NGVhN2U2NjQ0Yg=="><i class="fa-brands fa-instagram"></i></a>
+                 
+                    </div>
+                    <a href="SoubhikResume.pdf" download  class="btn btn2">Download Cv</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="'msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p >Copyright @soubhik </p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks= document.getElementsByClassName("tab-links");
+        var tabcontents= document.getElementsByClassName("tab-contents");
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link");
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab");
+            }
+           event.currentTarget.classList.add("active-link");
+           document.getElementById(tabname).classList.add("active-tab")
+        }
+
+    </script>
+    <script>
+        var sidemenu=document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxic0LeIjmwPPLutmRvrOVfADKeSRwcEGmaTP2zKQmx28EjBjm9s7aTyG_5n_9pviv4Vw/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg=document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response =>
+        {
+            msg.innerHTML = "Message sent Successfully"
+            setTimeout(function(){
+                msg.innerHTML=""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
